@@ -32,11 +32,7 @@ export const checkUser = async (): Promise<User | null> => {
 
         return newUser;
     } catch (error) {
-        if (error instanceof Error) {
-            console.error("Error in checkUser:", error.message);
-        } else {
-            console.error("Unknown error in checkUser:", error);
-        }
+        console.error("Error in checkUser:", error);
         return null;
     }
 };
