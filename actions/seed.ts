@@ -43,7 +43,12 @@ const CATEGORIES: Record<CategoryType, CategoryRange[]> = {
         { name: "transportation", range: [100, 500] },
         { name: "groceries", range: [200, 600] },
         { name: "utilities", range: [100, 300] },
-        
+        { name: "entertainment", range: [50, 200] },
+        { name: "food", range: [50, 150] },
+        { name: "shopping", range: [100, 500] },
+        { name: "healthcare", range: [100, 1000] },
+        { name: "education", range: [200, 1000] },
+        { name: "travel", range: [500, 2000] },
     ],
 };
 
