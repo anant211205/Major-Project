@@ -21,7 +21,8 @@ const serializeTransaction = (obj: any) => {
 
 export async function createAccount(data: Account) {
     try {
-        const { userId } = await auth();
+        const { userId , sessionId , getToken } = await auth();
+        console.log("Auth info:", { userId, sessionId, token: await getToken() });
         if (!userId) {
             throw new Error("Unauthorized");
         }
