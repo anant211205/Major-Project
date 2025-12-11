@@ -10,20 +10,20 @@ import {
 // Stats Data
 export const statsData = [
     {
-        value: "50K+",
-        label: "Active Users",
+        value: "10+",
+        label: "Test Users",
     },
     {
-        value: "$2B+",
+        value: "1K+",
         label: "Transactions Tracked",
     },
     {
-        value: "99.9%",
-        label: "Uptime",
+        value: "4+",
+        label: "Key Features",
     },
     {
-        value: "4.9/5",
-        label: "User Rating",
+        value: "Open",
+        label: "Source Project",
     },
 ];
 
@@ -31,35 +31,30 @@ export const statsData = [
 export const featuresData = [
     {
         icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-        title: "Advanced Analytics",
+        title: "Transaction Analytics",
         description:
-            "Get detailed insights into your spending patterns with AI-powered analytics",
+            "Track your spending patterns with clear charts and visual insights",
     },
     {
         icon: <Receipt className="h-8 w-8 text-blue-600" />,
-        title: "Smart Receipt Scanner",
+        title: "Receipt Scanner",
         description:
-            "Extract data automatically from receipts using advanced AI technology",
+            "Scan receipts and automatically extract transaction details using AI",
     },
     {
         icon: <PieChart className="h-8 w-8 text-blue-600" />,
-        title: "Budget Planning",
-        description: "Create and manage budgets with intelligent recommendations",
+        title: "Budget Management",
+        description: "Set monthly budgets and get alerts when you're close to limits",
     },
     {
         icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-        title: "Multi-Account Support",
-        description: "Manage multiple accounts and credit cards in one place",
-    },
-    {
-        icon: <Globe className="h-8 w-8 text-blue-600" />,
-        title: "Multi-Currency",
-        description: "Support for multiple currencies with real-time conversion",
+        title: "Multiple Accounts",
+        description: "Track multiple bank accounts and view all transactions in one place",
     },
     {
         icon: <Zap className="h-8 w-8 text-blue-600" />,
-        title: "Automated Insights",
-        description: "Get automated financial insights and recommendations",
+        title: "Monthly Reports",
+        description: "Receive monthly financial summaries with spending insights",
     },
 ];
 
@@ -69,43 +64,43 @@ export const howItWorksData = [
         icon: <CreditCard className="h-8 w-8 text-blue-600" />,
         title: "1. Create Your Account",
         description:
-            "Get started in minutes with our simple and secure sign-up process",
+            "Sign up in minutes using your email or Google account",
     },
     {
         icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-        title: "2. Track Your Spending",
+        title: "2. Add Transactions",
         description:
-            "Automatically categorize and track your transactions in real-time",
+            "Manually add transactions or scan receipts to track your spending",
     },
     {
         icon: <PieChart className="h-8 w-8 text-blue-600" />,
-        title: "3. Get Insights",
+        title: "3. Monitor Your Budget",
         description:
-            "Receive AI-powered insights and recommendations to optimize your finances",
+            "View your dashboard and get insights on your spending habits",
     },
 ];
 
 // Testimonials Data
 export const testimonialsData = [
     {
-        name: "Sarah Johnson",
+        name: "Priya Sharma",
         role: "Small Business Owner",
         image: "https://randomuser.me/api/portraits/women/75.jpg",
         quote:
-            "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+            "This app helps me keep track of my business expenses easily. The receipt scanner is a real time-saver.",
     },
     {
-        name: "Michael Chen",
+        name: "Rajesh Kumar",
         role: "Freelancer",
         image: "https://randomuser.me/api/portraits/men/75.jpg",
         quote:
-            "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+            "Managing multiple client payments is much easier now. The dashboard gives me a clear view of my finances.",
     },
     {
-        name: "Emily Rodriguez",
-        role: "Financial Advisor",
+        name: "Ananya Patel",
+        role: "Graduate Student",
         image: "https://randomuser.me/api/portraits/women/74.jpg",
         quote:
-            "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+            "Perfect for budgeting on a student income. The budget alerts help me stay on track with my monthly spending.",
     },
 ];
